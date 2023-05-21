@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+.label{
+  font-size: 18px;
+  color: rgb(78, 14, 189);
+
+}
+
+.App {
+  text-align: center;
+ 
+}
+
+#wrap{
+  width: 100%;
+  max-width:900px;
+  margin:0 auto 60px;
+  box-shadow: 0 3px 6px rgba(205, 58, 13, 0.25);
+  
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+div {
+  border-radius: 15px;
+  background-color: #dcd4a8;
+  padding: 20px;
+  
+}
+
+.h1{
+  
+  color: rgb(183, 38, 38);
+  display: flex;
+  justify-content: center;
+  animation: float 5s linear infinite;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  animation: float 3s linear infinite;
+  border-radius:10px;
+}
+
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(1rem);
+  }
+}
+
+.button:hover{
+  letter-spacing: 0.01rem;
+}
+
